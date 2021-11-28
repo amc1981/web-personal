@@ -1,1 +1,1 @@
-Write out some of your awesome attributes, and use emphasis (like bold or italics) to identify keywords, programming languages, or skills. 
+Sysadmin durante los últimos 20 años, bustando la reconversión en *developer* para la **Web 3.0**
