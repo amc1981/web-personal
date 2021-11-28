@@ -1,1 +1,4 @@
-Replace this with a link to your a GitHub or social media profile.
+[Github](https://github.com/amc1981)
+[Web](https://antoniomuniz.com/)
+[Newsletter](https://read.ganbaru.site/)
+[Twitter](https://twitter.com/Antonio_Muniz_C)
