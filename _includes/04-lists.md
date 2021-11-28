@@ -1,1 +1,5 @@
-Replace this with a list of your favorite things.
+- CV
+- Proyectos
+- Estudiando
+  - Web 3.0
+  - Platzi  
