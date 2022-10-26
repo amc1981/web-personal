@@ -1,4 +1,4 @@
 - [Github](https://github.com/amc1981)
 - [Web](https://antoniomuniz.com/)
-- [Newsletter](https://read.ganbaru.site/](https://www.getrevue.co/profile/antonio_muniz)
+- [Newsletter](https://www.getrevue.co/profile/antonio_muniz)
 - [Twitter](https://twitter.com/Antonio_Muniz_C)
