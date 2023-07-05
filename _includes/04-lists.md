@@ -1,4 +1,4 @@
-- CV
+- [CV](https://www.getmanfred.com/perfil/antonio)
 - Proyectos
 - Estudiando
   - Web 3.0
