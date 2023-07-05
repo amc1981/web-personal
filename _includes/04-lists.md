@@ -6,3 +6,4 @@
 
 - Latest Courses
   - [Kubernetes for the Absolute Beginners - Hands-on](https://www.udemy.com/course/learn-kubernetes/){:target="_blank"}  
+    - [Certificado](https://www.udemy.com/certificate/UC-c4ba086e-bc55-4dee-9416-b6e3e0431f52/){:target="_blank"}
