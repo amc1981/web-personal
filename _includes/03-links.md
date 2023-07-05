@@ -1,4 +1,2 @@
 - [Github](https://github.com/amc1981)
-- [Web](https://antoniomuniz.com/)
-- [Newsletter](https://www.getrevue.co/profile/antonio_muniz)
 - [Twitter](https://twitter.com/Antonio_Muniz_C)
