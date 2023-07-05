@@ -1,7 +1,7 @@
 - Work in progress
   - [Certified Kubernetes Administrator (CKA)](https://www.udemy.com/course/certified-kubernetes-administrator-with-practice-tests/){:target="_blank"}
   - [Vim Profesional](https://www.udemy.com/course/vim-profesional/){:target="_blank"}
-  - [The ultimate Devops Bootcamp - 2023](https://www.udemy.com/share/107XjK3@CKPwpGqe4fvmkrQZEaphMf67ziEgFevHq_ri8BR9JfMXwuZlT8XkYBsVSBSjKBqdtQ==/){:target="_blank"}
+  - [The ultimate Devops Bootcamp - 2023](https://www.udemy.com/course/the-complete-devops-bootcamp/){:target="_blank"}
 
 
 - Latest Courses
