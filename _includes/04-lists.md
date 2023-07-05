@@ -1,5 +1,3 @@
-- [CV](https://www.getmanfred.com/perfil/antonio){:target="_blank"}
-
 - Work in progress
   - [Certified Kubernetes Administrator (CKA)](https://www.udemy.com/course/certified-kubernetes-administrator-with-practice-tests/){:target="_blank"}
   - [Vim Profesional](https://www.udemy.com/course/vim-profesional/){:target="_blank"}
