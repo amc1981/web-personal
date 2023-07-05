@@ -1,2 +1,2 @@
-- [Github](https://github.com/amc1981)
-- [Twitter](https://twitter.com/Antonio_Muniz_C)
+[Github](https://github.com/amc1981)
+[Twitter](https://twitter.com/Antonio_Muniz_C)
