@@ -1,1 +1,3 @@
-TBD - Blogging with Jekyll
+## Side projects
+
+Blogging with Jekyll
