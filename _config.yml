@@ -1,8 +1,46 @@
 title: Antonio Muñiz
 description: Devops / SRE
 #remote_theme: pages-themes/hacker@v0.2.0
+##############
+#     TEMA   #
+##############
 remote_theme: hydecorp/hydejack@v9.1.6
 plugins:
   - jekyll-include-cache
+  - jekyll-paginate
+  - jekyll-avatar
+
 #plugins:
 #- jekyll-remote-theme # add this line to the plugins list if you already have one
+menu:
+  - title: Blog
+    url:   /blog/
+  - title: About
+    url:   /about/
+
+permalink: /blog/:title
+
+paginate:      10
+paginate_path: /blog/:num/ #!
+
+author:
+  name:  Antonio Muñiz
+  
+  picture:  /assets/img/me.jpg
+  about: | 
+    Hola, soy Antonio o @Antonio_Muniz_C en Twitter
+
+    Me dedico a actualizar ficheros con extensión .yml o yaml
+  social:
+    twitter: Antonio_Muniz_C
+    github:  amc1981
+    linkedin: https://www.linkedin.com/in/antonio-mu%C3%B1iz-casado/
+    email: amc1981@gmail.com
+
+collections:
+  featured_categories:
+    permalink:         /:name/
+    output:            true
+  featured_tags:
+    permalink:         /tag-:name/
+    output:            true
