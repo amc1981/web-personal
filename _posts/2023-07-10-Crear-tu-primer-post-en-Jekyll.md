@@ -1,8 +1,7 @@
 ---
 layout: post
 author: Antonio
-category: Jekyll
-tags: [Turorial, Blogging]
+tags: [Tutorial, Blogging]
 ---
 1. Crear carpeta "_posts"
 {:toc}
@@ -29,26 +28,64 @@ Para que veamos el ejemplo de este mismo artículo, sería algo así:
 
 ## Listado de posts
 
-Ya tenemos el fichero y su ubicación, pero es inaccesible. Para que podamos ver un listado de posts, tenemos que agregar el siguiente código en un fichero "index.html" dentro de la carpeta blog de nuestro proyecto.
-
-```
+Por defecto, este tema muestra los posts en la carpeta */blog*, siempre y cuando tengamos dentro un fichero index.html con el siguiente código en el Front Matter
+```yaml
 ---
 layout: default
 title: Blog
 description: >
-  El blog de Antonio Muñiz. Apuntes, aprendizajes y divagaciones.
+  Blog de Antonio Muñiz. Apuntes, aprendizajes y divagaciones.
 ---
-<h1>Últimos Posts</h1>
 
-<ul>
-  {% for post in site.posts %}
-    <li>
-      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-      {{ post.excerpt }}
-    </li>
-  {% endfor %}
-</ul>
 ```
+
+## Crear categorías o tags. 
+
+Según la documentación de Jekyll podemos organizar la información a través de colecciones. 
+
+### Configuración
+
+Primero de todo debemos indicarle a Jekyll de la existencia de nuestra nueva colección. Esto se hace en el fichero _config.yaml.
+
+Dado que lo que queremos es crear dos tipos de agrupaciones: categorías y etiquetas, añadiremos el siguiente texto al fichero yaml.
+
+~~~yaml
+file: '_config.yml'
+---
+collections:
+  featured_categories:
+    permalink:         /:name/
+    output:            true
+  featured_tags:
+    permalink:         /tag-:name/
+    output:            true
+~~~
+
+### Añadir elementos a cada colección
+
+Tenemos dos colecciones: featured_categories y featured_tags, como se observa en el bloque anterior. Debemos crear una carpeta por cada una de dichas colecciones en el directorio raíz de nuestro proyecto Jekyll y dentro crearemos un fichero markdown por cada una de las categorías y etiquetas que queramos incluir en nuestro blog.
+
+En la imagen se ve el ejemplo de las dos primeras categorías y etiquetas de este blog.
+
+![Full-width image](assets/img/../../../assets/img/category-tag-folders.png){:.lead width="100" height="25" loading="lazy"}
+
+Dentro de cada fichero podemos crear un Front Matter como el que ponemos a continuación de ejemplo:
+
+~~~yaml
+---
+layout: list
+title:  Jekyll
+slug:   jekyll
+menu: true
+description: >
+  Artículos relacionados con la herramienta Jekyll
+---
+~~~
+
+### Página de categorías y de etiquetas
+
+Ahora tenemos que poder acceder a todos los posts relacionados con una categoría, pero para ello debemos crear una página de categorías y otra de etiquetas en la raíz de nuestro proyecto. 
+
 
 
 ## Recursos
