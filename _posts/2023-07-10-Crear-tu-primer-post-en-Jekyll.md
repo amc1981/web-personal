@@ -1,8 +1,11 @@
 ---
 layout: post
-author: antonio
-category: jekyll
+author: Antonio
+category: Jekyll
+tags: [Turorial, Blogging]
 ---
+1. Crear carpeta "_posts"
+{:toc}
 
 En este artículo recogemos todos los pasos necesarios para crear nuestra primera publicación en un blog que está en Jekyll.
 
@@ -10,7 +13,7 @@ En este artículo recogemos todos los pasos necesarios para crear nuestra primer
 
 En el raiz de nuestro proyecto crearemos la carpeta _posts, que es donde se almacenarán todos los artículos que vayamos creando en el post.
 
-## Crear nuestro primer artículo
+### Crear nuestro primer artículo
 
 Dentro de la carpeta _posts crearemos un fichero con el siguiente formato:
 
@@ -53,4 +56,8 @@ description: >
 Documentación oficial de [Jekyll](https://jekyllrb.com/docs/step-by-step/08-blogging/){:target="_blank"}
 
 Documentación del theme [hydejack](https://hydecorp.github.io/hydejack-starter-kit/docs/basics/#adding-a-category-or-tag){:target="_blank"}
+
+Crear [tags](https://github.com/hydecorp/hydejack-site/blob/1e1b648b39ac1b698157a904174afa99c84777fa/hydejack/_posts/2016-03-08-introducing-hydejack.md?plain=1#L88)
+
+Añadir [categorías o tags](https://hydecorp.github.io/hydejack-starter-kit/docs/basics/#adding-a-category-or-tag)
 

@@ -18,8 +18,8 @@ menu:
   - title: About
     url:   /about/
 
-# permalink: /blog/:title
-permalink: none
+permalink: /blog/:title
+
 
 paginate:      10
 paginate_path: /blog/:num/ #!
