@@ -1,9 +1,10 @@
 ---
 layout: post
-author: antonio
-tags:  [Tutorial Blogging]
+author: Antonio
+tags: [Apuntes, Kubernetes]
 ---
-
+1. Objetivo
+{:toc}
 ## Primer borrador
 
 prueba texto
