@@ -1,13 +1,13 @@
 ---
 layout: default
 ---
-<!-- <h1>{{ page.title }}</h1> -->
+
 <p>{{ page.date | date_to_string }} - {{ page.author }}</p>
 
 <h2>Categoría: {{ page.title }}</h2>
 
 <ul>
-  {% for category in site.blog %}
+  {% for post in site.blog %}
     <li>
       <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
       {{ post.excerpt }}
