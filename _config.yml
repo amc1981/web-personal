@@ -12,6 +12,7 @@ plugins:
   - jekyll-include-cache
   - jekyll-paginate
   - jekyll-avatar
+  - jekyll-feed
 
 #plugins:
 #- jekyll-remote-theme # add this line to the plugins list if you already have one

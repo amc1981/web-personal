@@ -4,3 +4,4 @@ gem 'wdm', '>= 0.1.0'
 gem "webrick", "~> 1.8"
 gem "jekyll-paginate"
 gem "jekyll-avatar"
+gem 'jekyll-feed'
