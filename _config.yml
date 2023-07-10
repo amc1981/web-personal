@@ -1,6 +1,9 @@
 title: Antonio Muñiz
 description: Devops / SRE
 #remote_theme: pages-themes/hacker@v0.2.0
+
+url: https://links.antoniomuniz.com
+baseurl: ''
 ##############
 #     TEMA   #
 ##############
@@ -25,8 +28,7 @@ paginate:      10
 paginate_path: /blog/:num/ #!
 
 author:
-  name:  Antonio Muñiz
-  
+  name:  Antonio Muñiz  
   picture:  /assets/img/me.jpg
   about: | 
     Hola, soy Antonio o @Antonio_Muniz_C en Twitter
@@ -39,9 +41,9 @@ author:
     email: amc1981@gmail.com
 
 collections:
-  featured_categories:
-    permalink:         /:name/
-    output:            true
+  #featured_categories:
+  #  permalink:         /blog/:name/
+  #  output:            true
   featured_tags:
     permalink:         /tag-:name/
     output:            true
