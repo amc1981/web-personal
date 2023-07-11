@@ -6,7 +6,7 @@ layout: default
 
 {% for tag in page.tags %}
 
-  <a href="/blog/tags/{{ tag }}">{{ tag }}</a>
+  <a href="/blog/tags/{{ tag | downcase }}">{{ tag }}</a>
 
 
 {% endfor %}
