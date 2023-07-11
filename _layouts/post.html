@@ -2,6 +2,16 @@
 layout: default
 ---
 
-<p>{{ page.date | date_to_string }} - {{ page.author }}</p>
+<p>Fecha: {{ page.date | date_to_string }} - Autor: <a href="/about">{{ page.author }}</a></p>
+
+{% for tag in page.tags %}
+
+  <a href="/blog/tags/{{ tag }}">{{ tag }}</a>
+
+
+{% endfor %}
+
+<hr>
+
 
 {{ content }}
