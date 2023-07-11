@@ -2,6 +2,8 @@
 layout: default
 ---
 
+<!-- {% include 02-image.md %} -->
+
 {% include 04-lists.md %}
 
 ---
