@@ -22,8 +22,7 @@ menu:
   - title: About
     url:   /about/
 
-permalink: /blog/:title
-
+permalink: none
 
 paginate:      10
 paginate_path: /blog/:num/ #!
@@ -46,5 +45,5 @@ collections:
   #  permalink:         /blog/:name/
   #  output:            true
   featured_tags:
-    permalink:         /tag-:name/
+    permalink:         /blog/:collection/:name/
     output:            true
