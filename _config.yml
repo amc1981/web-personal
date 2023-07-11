@@ -5,9 +5,12 @@ description: Devops / SRE
 url: https://links.antoniomuniz.com
 baseurl: ''
 ##############
-#     TEMA   #
+#    TEMA    #
 ##############
 remote_theme: hydecorp/hydejack@v9.1.6
+#################
+#    PLUGINS    #
+#################
 plugins:
   - jekyll-include-cache
   - jekyll-paginate
@@ -16,11 +19,17 @@ plugins:
 
 #plugins:
 #- jekyll-remote-theme # add this line to the plugins list if you already have one
+
+###################
+#    Menú lateral #
+###################
 menu:
   - title: Blog
     url:   /blog/
   - title: About
     url:   /about/
+  - title: Tags # Provisional mientas activo la barra de navegación
+    url: /blog/tags
 
 permalink: pretty
 logo: /assets/img/me.jpg
@@ -32,9 +41,7 @@ author:
   name:  Antonio Muñiz  
   picture:  /assets/img/me.jpg
   about: | 
-    Hola, soy Antonio o @Antonio_Muniz_C en Twitter
-
-    Me dedico a actualizar ficheros con extensión .yml o yaml
+    Hola, soy Antonio y me dedico a actualizar ficheros con extensión .yml o .yaml
   social:
     twitter: Antonio_Muniz_C
     github:  amc1981
@@ -46,5 +53,5 @@ collections:
   #  permalink:         /blog/:name/
   #  output:            true
   featured_tags:
-    permalink:         /tag/:name/
+    permalink:         /blog/tags/:name/
     output:            true
