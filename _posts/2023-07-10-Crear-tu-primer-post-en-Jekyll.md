@@ -94,7 +94,8 @@ Documentación oficial de [Jekyll](https://jekyllrb.com/docs/step-by-step/08-blo
 
 Documentación del theme [hydejack](https://hydecorp.github.io/hydejack-starter-kit/docs/basics/#adding-a-category-or-tag){:target="_blank"}
 
-Crear [tags](https://github.com/hydecorp/hydejack-site/blob/1e1b648b39ac1b698157a904174afa99c84777fa/hydejack/_posts/2016-03-08-introducing-hydejack.md?plain=1#L88)
+Crear [tags](https://github.com/hydecorp/hydejack-site/blob/1e1b648b39ac1b698157a904174afa99c84777fa/hydejack/_posts/2016-03-08-introducing-hydejack.md?plain=1#L88){:target="_blank"}
 
-Añadir [categorías o tags](https://hydecorp.github.io/hydejack-starter-kit/docs/basics/#adding-a-category-or-tag)
+Añadir [categorías o tags](https://hydecorp.github.io/hydejack-starter-kit/docs/basics/#adding-a-category-or-tag){:target="_blank"}
 
+[Blog](https://tseknet.com/blog/){:target="_blank"} en el que me he "inspirado"
