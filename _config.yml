@@ -23,6 +23,7 @@ menu:
     url:   /about/
 
 permalink: pretty
+logo: /assets/img/me.jpg
 
 paginate:      10
 paginate_path: /blog/:num/ #!
@@ -45,5 +46,5 @@ collections:
   #  permalink:         /blog/:name/
   #  output:            true
   featured_tags:
-    permalink:         /tag-:name/
+    permalink:         /tag/:name/
     output:            true
