@@ -68,7 +68,7 @@ Tenemos dos colecciones: featured_categories y featured_tags, como se observa en
 
 En la imagen se ve el ejemplo de las dos primeras categorías y etiquetas de este blog.
 
-![Full-width image](/assets/img/blog/category-tag-folders.png){:.lead width="100" height="25" loading="lazy"}
+![image](/assets/img/blog/category-tag-folders.png){:.lead width="100" height="25" loading="lazy"}
 
 Dentro de cada fichero podemos crear un Front Matter como el que ponemos a continuación de ejemplo:
 
