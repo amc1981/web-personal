@@ -1,7 +1,7 @@
 ---
 layout: list
-title:  Tutorial
-slug:   tutorial
+title:  Tutoriales
+slug:   tutoriales
 description: >
   Tutoriales
 ---
