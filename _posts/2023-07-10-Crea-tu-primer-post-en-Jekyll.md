@@ -1,6 +1,7 @@
 ---
 layout: post
 author: Antonio
+image: /assets/img/blog/category-tag-folders.png
 tags: [Tutoriales, Blogging]
 ---
 - Tabla de contenidos
@@ -68,7 +69,9 @@ Tenemos dos colecciones: `featured_categories` y `featured_tags`, como se observ
 
 En la imagen se ve el ejemplo de las dos primeras categorías y etiquetas de este blog.
 
-![image](/assets/img/blog/category-tag-folders.png){:.lead width="100" height="25" loading="lazy"}
+<img src="/assets/img/blog/category-tag-folders.png" title="" alt="Tag and category folders">
+
+
 
 Dentro de cada fichero podemos crear un Front Matter como el que ponemos a continuación de ejemplo:
 
@@ -83,9 +86,35 @@ description: >
 ---
 ~~~
 
-### Página de categorías y de etiquetas
+### Página de etiquetas
 
-Ahora tenemos que poder acceder a todos los posts relacionados con una categoría, pero para ello debemos crear una página de categorías y otra de etiquetas en la raíz de nuestro proyecto. 
+Ahora tenemos que poder acceder a todos los posts relacionados con una etiqueta, pero para ello debemos crear una página de etiquteas en la raíz de nuestro proyecto o en la carpeta blog, donde ya habíamos creado el index.html del blog (no confundir con el index.html de la raíz del proyecto donde está la Home de la web).
+
+Introduciremos el siguiente código en nuestro fichero `tags.html`
+
+```html
+---
+layout: default
+title: Tags
+---
+{% for tag in site.tags %}
+  <h3>{{ tag[0] }}</h3>
+  <ul>
+    {% for post in tag[1] %}
+      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+{% endfor %}
+```
+
+Lo que estamos haciendo es iterar todos los ficheros que tenemos en la carpeta `/tags`, en el momento de escribir este post son: `Apuntes.md, Blogging.md, Kubernetes.md y Tutoriales.md`, para crear un título `h3` por cada etiqueta, y para obtener cada post volvemos recorrer cada post con la etiqueta correspondiente y creamos un enlace a dicho post. 
+
+El resultado es el siguiente: 
+
+
+<img src="/assets/img/blog/tags-page-detail.png" title="" alt="Tag page detail" width="300" height="200" style="border: 1px solid #000;float: center;">
+
+
 
 
 
