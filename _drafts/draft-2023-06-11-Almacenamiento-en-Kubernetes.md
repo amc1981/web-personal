@@ -1,9 +1,10 @@
 ---
 layout: post
 author: Antonio
-tags: [Apuntes, Kubernetes]
+category: kubernetes
+tags: [apuntes]
 ---
-1. Objetivo
+- Tabla de contenidos
 {:toc}
 ## Primer borrador
 
