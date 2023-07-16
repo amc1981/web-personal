@@ -1,5 +1,6 @@
 ---
 layout: post
 author: antonio
-tags: [Apuntes, Kubernetes]
+category: kubernetes
+tags: [apuntes]
 ---
