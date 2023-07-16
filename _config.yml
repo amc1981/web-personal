@@ -49,9 +49,35 @@ author:
     email: amc1981@gmail.com
 
 collections:
-  #featured_categories:
-  #  permalink:         /blog/:name/
-  #  output:            true
+  featured_categories:
+    permalink:         /blog/category/:name/
+    output:            true
   featured_tags:
     permalink:         /blog/tags/:name/
     output:            true
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: pages
+    values:
+      layout: page
+  -
+    scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+  -
+    scope:
+      path: ""
+      type: featured_categories
+    values:
+      layout: blog_by_category
+  -
+    scope:
+      path: ""
+      type: featured_tags
+    values:
+      layout: blog_by_tag
