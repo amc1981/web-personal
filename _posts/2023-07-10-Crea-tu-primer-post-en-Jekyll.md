@@ -2,8 +2,8 @@
 layout: post
 author: Antonio
 image: /assets/img/blog/category-tag-folders.png
-category: jekyll
-tags: [tutoriales, blogging]
+category: blogging
+tags: [tutoriales, jekyll]
 ---
 - Tabla de contenidos
 {:toc}

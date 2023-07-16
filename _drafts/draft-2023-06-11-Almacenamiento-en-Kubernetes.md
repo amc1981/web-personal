@@ -1,8 +1,8 @@
 ---
 layout: post
 author: Antonio
-category: kubernetes
-tags: [apuntes]
+category: devops
+tags: [kubernetes, apuntes]
 ---
 - Tabla de contenidos
 {:toc}
