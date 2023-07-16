@@ -2,15 +2,9 @@
 layout: default
 ---
 
-<p>{{ page.date | date_to_string }} - {{ page.author }}</p>
-
-<h2>Categoría: {{ page.title }}</h2>
-
-<ul>
-  {% for post in site.blog %}
-    <li>
-      <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-      {{ post.excerpt }}
-    </li>
-  {% endfor %}
-</ul>
+{% for var in site.featured_categories %}
+    {% if var.slug == page.category %}
+    {% assign category_name = var.name %}
+	<p>{{ category_name }}</p>
+	{% endif %}
+{% endfor %}
