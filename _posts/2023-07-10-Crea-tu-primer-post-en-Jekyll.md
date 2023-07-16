@@ -2,7 +2,8 @@
 layout: post
 author: Antonio
 image: /assets/img/blog/category-tag-folders.png
-tags: [Tutoriales, Blogging]
+category: jekyll
+tags: [tutoriales, blogging]
 ---
 - Tabla de contenidos
 {:toc}
@@ -130,3 +131,5 @@ Crear [tags](https://github.com/hydecorp/hydejack-site/blob/1e1b648b39ac1b698157
 Añadir [categorías o tags](https://hydecorp.github.io/hydejack-starter-kit/docs/basics/#adding-a-category-or-tag){:target="_blank"}
 
 [Blog](https://tseknet.com/blog/){:target="_blank"} en el que me he "inspirado"
+
+[Guía completa](https://dsigno.github.io/Empezando-Jekyll/Usar-tags-y-categorias-en-Jekyll-I/) uso de categorías y etiquetas en Jekyll en castellano
