@@ -28,8 +28,7 @@ menu:
     url:   /blog/
   - title: About
     url:   /about/
-  - title: Tags # Provisional mientas activo la barra de navegación
-    url: /blog/tags
+
 
 permalink: pretty
 logo: /assets/img/me.jpg
