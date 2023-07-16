@@ -2,14 +2,19 @@
 layout: default
 ---
 
-<p>Fecha: {{ page.date | date_to_string }} - Autor: <a href="/about">{{ page.author }}</a></p>
-
-{% for tag in page.tags %}
-
-  <a href="/blog/tags/{{ tag | downcase }}">{{ tag }}</a>
-
-
+{% for var in site.featured_categories %}
+    {% if var.slug == page.category %}
+    {% capture category_link %}
+    <a class="label" href="{{ site.baseurl }}{{ var.url }}">{{ var.name }}</a>
+    {% endcapture %}
+	{% endif %}
 {% endfor %}
+
+<p>Fecha: {{ page.date | date_to_string }} - Autor: <a href="/about">{{ page.author }}</a></p>
+<p class="post-cat">
+  {% if category_link %}Post en Categoría: {{ category_link }}{% endif %}
+</p>
+<p>Etiquetas: / {% for tag in page.tags %}<a href="/blog/tags/{{ tag }}"> {{ tag }} </a>/{% endfor %}</p>
 
 <hr>
 
