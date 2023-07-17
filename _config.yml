@@ -17,6 +17,7 @@ plugins:
   - jekyll-avatar
   - jekyll-feed
   - jekyll-sitemap
+  - jekyll-seo-tag
 
 #plugins:
 #- jekyll-remote-theme # add this line to the plugins list if you already have one
@@ -39,6 +40,7 @@ paginate_path: /blog/:num/ #!
 
 author:
   name:  Antonio Muñiz  
+  url: https://links.antoniomuniz.com/
   picture:  /assets/img/me.jpg
   about: | 
     Hola, soy Antonio y me dedico a actualizar ficheros con extensión .yml o .yaml
