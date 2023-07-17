@@ -1,14 +1,16 @@
 ---
 layout: default
 ---
-
 {% for var in site.featured_categories %}
     {% if var.slug == page.category %}
     {% capture category_link %}
     <a class="label" href="{{ site.baseurl }}{{ var.url }}">{{ var.name }}</a>
-    {% endcapture %}
+    {% endcapture %} 
 	{% endif %}
 {% endfor %}
+
+
+
 
 <p>Fecha: {{ page.date | date_to_string }} - Autor: <a href="/about">{{ page.author }}</a></p>
 <p class="post-cat">
