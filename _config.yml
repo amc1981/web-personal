@@ -16,6 +16,7 @@ plugins:
   - jekyll-paginate
   - jekyll-avatar
   - jekyll-feed
+  - jekyll-sitemap
 
 #plugins:
 #- jekyll-remote-theme # add this line to the plugins list if you already have one
@@ -80,6 +81,7 @@ defaults:
       type: featured_tags
     values:
       layout: blog_by_tag
+
 
 # Jekyll-compose configuration
 
