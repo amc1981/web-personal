@@ -14,6 +14,8 @@ author: Antonio
 1. Tabla de contenidos
 {:toc}
 
+jekyll-sitemap es un plugin que genera un fichero `sitemap.xml` a partir de los artículos y páginas creados en el blog.
+
 ## Instalación
 
 1. Como de costumbre, añadimos la línea referenciando a la gema correspondiente en nuestro `Gemfile` y posteriormente ejecutamos el comando `bundle`
