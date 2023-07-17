@@ -53,4 +53,4 @@ Se podrían definir más configuraciones como las categorías, etiquetas o colec
 
 ## Recursos
 
-[Proyecto jekyll-feed en Github](https://github.com/jekyll/jekyll-feed)
+[Proyecto jekyll-feed en Github](https://github.com/jekyll/jekyll-feed){:target="_blank"}
