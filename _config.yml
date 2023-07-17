@@ -100,3 +100,10 @@ jekyll_compose:
       author: Antonio
       published: false
       sitemap: false
+
+# Jekyll-feed configuration
+
+feed:
+  path: /blog/feed.xslt.xml
+  excerpt_only: true
+
