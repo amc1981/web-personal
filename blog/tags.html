@@ -3,7 +3,7 @@ layout: page
 title: Etiquetas
 ---
 {% for tag in site.tags %}
- <h4><a href="/blog/tags/{{ tag[0] }}"> {{ tag[0] }} </a></h4>
+ <h4><a href="/blog/tags/{{ tag[0] }}"> {{ tag[0] | capitalize}} </a></h4>
   <ul>
     {% for post in tag[1] %}
       <li><a  href="{{ post.url }}">{{ post.title }}</a></li>
