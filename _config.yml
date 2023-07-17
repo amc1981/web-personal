@@ -80,3 +80,23 @@ defaults:
       type: featured_tags
     values:
       layout: blog_by_tag
+
+# Jekyll-compose configuration
+
+jekyll_compose:
+  auto_open: true
+  default_front_matter:
+    drafts:
+      description:
+      image:
+      category:
+      tags:
+      author: Antonio
+    posts:
+      description:
+      image:
+      category:
+      tags:
+      author: Antonio
+      published: false
+      sitemap: false
