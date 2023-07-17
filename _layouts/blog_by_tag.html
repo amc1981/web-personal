@@ -21,8 +21,8 @@ layout: default
         {% endif %}
       {% endunless %}
         <a href="{{ site.baseurl }}{{ post.url }}" class="list-group-item">
-          <h4 class="list-group-item-heading">{{ post.title }}</h4>
-          <p class="list-group-item-date">{{ post.date | date: "%-d/%-m/%Y" }}</p>
+          <h4 class="list-group-item-heading">{{ post.date | date: "%-d/%-m" }} - {{ post.title }}</h4>
+          <!-- <p class="list-group-item-date">{{ post.date | date: "%-d/%-m/%Y" }}</p> -->
         </a>
       {% if forloop.last %}
         </div>
@@ -31,5 +31,6 @@ layout: default
     <!-- fin bucle principal -->
   {% else %}
     <p>No existen posts para este TAG.</p>
+
   {% endif %}
 </div>
