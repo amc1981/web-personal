@@ -6,3 +6,4 @@ gem "jekyll-paginate"
 gem "jekyll-avatar"
 gem 'jekyll-feed'
 gem 'jekyll-compose', group: [:jekyll_plugins]
+gem 'jekyll-sitemap'
