@@ -7,6 +7,7 @@ category: blogging
 tags:
 - jekyll
 - tutoriales
+- jekyll-plugins
 ---
 1. Table of contents
 {:toc}
