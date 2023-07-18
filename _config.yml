@@ -18,6 +18,7 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
+  - jekyll-tagging-related_posts
 
 #plugins:
 #- jekyll-remote-theme # add this line to the plugins list if you already have one
