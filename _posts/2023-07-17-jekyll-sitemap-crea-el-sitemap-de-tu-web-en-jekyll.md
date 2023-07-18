@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Genera el sitemap de tu blog con jekyll-sitemap
+title: 'jekyll-sitemap: Crea el sitemap de tu web en Jekyll'
 date: 2023-07-17 20:19 +0200
 description:
 image:

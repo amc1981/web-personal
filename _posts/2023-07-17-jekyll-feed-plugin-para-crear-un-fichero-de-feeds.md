@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Crea un feed para tu blog con Jekyll-feed
+title: 'jekyll-feed: plugin para crear un fichero de feeds'
 date: 2023-07-17 12:35 +0200
 description:
 image:

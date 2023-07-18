@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Aprendiendo a manejar Jekyll compose
+title: 'jekyll-compose: Automatiza el manejo de ficheros en Jekyll'
 date: 2023-07-16 17:44 +0200
 author: Antonio
 category: blogging
@@ -12,7 +12,7 @@ tags:
 1. Table of contents
 {:toc}
 
-jekyll-compose es un plugin que nos facilita labor de creación de borradores, publicación de los mismos y creación de páginas en nuestro proyecto de Jekyll
+jekyll-compose es un plugin que nos facilita labor de creación de borradores, publicación de los mismos y creación de páginas en nuestro proyecto de Jekyll. Otra utilidad es el renombrado de los ficheros y a su vez del título de nuestras entradas en el blog. 
 
 ## Instalación
 
