@@ -29,6 +29,8 @@ plugins:
 menu:
   - title: Blog
     url:   /blog/
+  - title: Apuntes
+    url: /blog/cursos/
   - title: About
     url:   /about/
 
@@ -58,6 +60,9 @@ collections:
   featured_tags:
     permalink:         /blog/tags/:name/
     output:            true
+  cursos:
+    permalink: /blog/:collection/:name
+    output: true
 
 defaults:
   -
@@ -84,6 +89,12 @@ defaults:
       type: featured_tags
     values:
       layout: blog_by_tag
+  -
+    scope:
+      path: ""
+      type: cursos
+    values:
+      layout: blog_by_curso
 
 
 # Jekyll-compose configuration
@@ -104,7 +115,7 @@ jekyll_compose:
       tags:
       author: Antonio
       published: false
-      sitemap: false
+      sitemap: true
 
 # Jekyll-feed configuration
 

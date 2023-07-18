@@ -1,0 +1,20 @@
+---
+layout: page
+title: Apuntes
+name: cursos
+slug: cursos
+description: >
+  Relación de apuntes tomados en cursos que voy haciendo, sobre conceptos clave que necesito entender mejor.
+---
+<ul>
+    {% for curso in site.cursos %}
+      <li>
+        <h2><a href="/blog/cursos/{{ curso.slug }}">{{ curso.name }}</a></h2>
+        <p>{{ curso.description }} -  <a href="{{ curso.link }}" Target="_blank">Enlace al curso</a></p>
+        <hr>
+      </li>
+    {% endfor %}
+  </ul>
+
+
+
