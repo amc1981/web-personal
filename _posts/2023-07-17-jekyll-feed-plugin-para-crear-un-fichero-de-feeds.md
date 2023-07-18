@@ -8,7 +8,7 @@ category: blogging
 tags:
 - jekyll
 - jekyll-plugins
-- tutoriales
+- how-to
 author: Antonio
 ---
 1. Tabla de contenidos

@@ -6,7 +6,7 @@ author: Antonio
 category: blogging
 tags:
 - jekyll
-- tutoriales
+- how-to
 - jekyll-plugins
 ---
 1. Table of contents
