@@ -8,3 +8,4 @@ gem 'jekyll-feed'
 gem 'jekyll-compose', group: [:jekyll_plugins]
 gem 'jekyll-sitemap'
 gem 'jekyll-seo-tag'
+gem "jekyll-tagging-related_posts"
