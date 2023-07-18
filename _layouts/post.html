@@ -22,3 +22,15 @@ layout: default
 
 
 {{ content }}
+
+{% if site.related_posts.size >= 1 %}
+<div>
+  <h3>Artículos relacionados</h3>
+  <hr>
+  <ul>
+  {% for related_post in site.related_posts limit: 5 %}
+    <li><a href="{{ related_post.url }}">{{ related_post.title }}</a></li>
+  {% endfor %}
+  </ul>
+</div>
+{% endif %}
