@@ -1,13 +1,22 @@
-## Your GitHub Learning Lab Repository for Communicating Using Markdown
+# blog.antoniomuniz.com
 
-Welcome to **your** repository for your GitHub Learning Lab course. This repository will be used during the different activities that I will be guiding you through.
+This repo hosts [blog.antoniomuniz.com](https://blog.antoniomuniz.com/) , which leverages the
+[Hydejack](https://hydejack.com) Jekyll theme in tandem with [Github Pages](https://pages.github.com/) to serve this static website.
 
-Oh! I haven't introduced myself...
+## Topics
 
-I'm the GitHub Learning Lab bot and I'm here to help guide you in your journey to learn and master the various topics covered in this course. I will be using Issue and Pull Request comments to communicate with you. In fact, I already added an issue for you to check out.
+On this site you can read about following topics:
 
-![issue tab](https://lab.github.com/public/images/issue_tab.png)
+- [Blogging](https://blog.antoniomuniz.com/blog/category/blogging/){:target="_blank"}
+- [Devops](https://blog.antoniomuniz.com/blog/category/devops/){:target="_blank"}
+- [My own thoughts and reflections in many topics](https://blog.antoniomuniz.com/blog/category/reflexiones/){:target="_blank"}
 
-I'll meet you over there, can't wait to get started!
+Add the site [to your feed](https://blog.antoniomuniz.com/blog/feed.xslt.xml) for stay up to date on new publications.
 
-This repository is licensed under [MIT](../LICENSE) (c) 2019 GitHub, Inc.
+## Contributing
+
+[Pull requests](https://github.com/amc1981/web-personal/pulls) are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
