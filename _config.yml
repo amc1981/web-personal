@@ -56,7 +56,7 @@ author:
 
 collections:
   featured_categories:
-    permalink:         /blog/category/:name/
+    permalink:         /blog/categories/:name/
     output:            true
   featured_tags:
     permalink:         /blog/tags/:name/
