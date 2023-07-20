@@ -2,7 +2,7 @@
 layout: post
 title: 'jekyll-feed: plugin para crear un fichero de feeds'
 date: 2023-07-17 12:35 +0200
-description:
+description: Un plugin de Jekyll para generar un feed Atom (tipo RSS) de sus publicaciones de Jekyll.
 image:
 category: blogging
 tags:
