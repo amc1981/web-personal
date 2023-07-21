@@ -2,6 +2,7 @@
 layout: post
 author: Antonio
 image: /assets/img/blog/category-tag-folders.png
+description: Guía para crear tu primera publicación en tu blog de Jekyll. Paso a paso incluyendo manejo de etiquetas y categorías.
 category: blogging
 tags: [tutoriales, jekyll]
 ---

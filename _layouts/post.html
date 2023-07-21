@@ -1,9 +1,19 @@
 ---
 layout: default
 ---
+
+
 {% for var in site.featured_categories %}
     {% if var.slug == page.category %}
     {% capture category_link %}
+    <a class="label" href="{{ site.baseurl }}{{ var.url }}">{{ var.name }}</a>
+    {% endcapture %} 
+	{% endif %}
+{% endfor %}
+
+{% for var in site.cursos %}
+    {% if var.slug == page.curso %}
+    {% capture curso_link %}
     <a class="label" href="{{ site.baseurl }}{{ var.url }}">{{ var.name }}</a>
     {% endcapture %} 
 	{% endif %}
@@ -13,6 +23,8 @@ layout: default
 
 
 <p>Fecha: {{ page.date | date_to_string }} - Autor: <a href="/about">{{ page.author }}</a></p>
+<hr>
+<p>{% if curso_link %}Formación: {{ curso_link }}{% endif %}</p>
 <p class="post-cat">
   {% if category_link %}Post en Categoría: {{ category_link }}{% endif %}
 </p>

@@ -2,7 +2,7 @@ title: Antonio Muñiz
 description: Devops / SRE
 #remote_theme: pages-themes/hacker@v0.2.0
 
-url: https://links.antoniomuniz.com
+url: https://blog.antoniomuniz.com
 baseurl: ''
 ##############
 #    TEMA    #
@@ -43,7 +43,7 @@ paginate_path: /blog/:num/ #!
 
 author:
   name:  Antonio Muñiz  
-  url: https://links.antoniomuniz.com/
+  url: https://blog.antoniomuniz.com/
   picture:  /assets/img/me.jpg
   about: | 
     Hola, soy Antonio y me dedico a actualizar ficheros con extensión .yml o .yaml
@@ -52,10 +52,11 @@ author:
     github:  amc1981
     linkedin: https://www.linkedin.com/in/antonio-mu%C3%B1iz-casado/
     email: amc1981@gmail.com
+    rss: https://blog.antoniomuniz.com/blog/feed.xslt.xml
 
 collections:
   featured_categories:
-    permalink:         /blog/category/:name/
+    permalink:         /blog/categories/:name/
     output:            true
   featured_tags:
     permalink:         /blog/tags/:name/
@@ -121,5 +122,5 @@ jekyll_compose:
 
 feed:
   path: /blog/feed.xslt.xml
-  excerpt_only: true
+  excerpt_only: false
 

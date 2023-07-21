@@ -2,7 +2,7 @@
 layout: post
 title: 'jekyll-sitemap: Crea el sitemap de tu web en Jekyll'
 date: 2023-07-17 20:19 +0200
-description: Complemento Jekyll para generar silenciosamente un mapa del sitio compatible con sitemaps.org para su sitio Jekyll
+description: Plugin de Jekyll para generar silenciosamente un mapa del sitio compatible con sitemaps.org para su web en Jekyll.
 image: /assets/img/blog/sitemap-xml.png
 category: blogging
 tags:

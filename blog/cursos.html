@@ -10,7 +10,7 @@ description: >
     {% for curso in site.cursos %}
       <li>
         <h2><a href="/blog/cursos/{{ curso.slug }}">{{ curso.name }}</a></h2>
-        <p>{{ curso.description }} -  <a href="{{ curso.link }}" Target="_blank">Enlace al curso</a></p>
+        <p><q>{{ curso.description }}</q> ->  <a href="{{ curso.link }}" Target="_blank">Enlace al curso</a></p>
         <hr>
       </li>
     {% endfor %}

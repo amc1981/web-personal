@@ -3,6 +3,7 @@ layout: post
 title: 'jekyll-compose: Automatiza el manejo de ficheros en Jekyll'
 date: 2023-07-16 17:44 +0200
 author: Antonio
+description: Optimice su escritura en Jekyll con estos comandos. Crear, publicar y renombrar posts y borradores a través de la línea de comandos.
 category: blogging
 tags:
 - jekyll
