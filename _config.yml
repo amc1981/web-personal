@@ -43,7 +43,7 @@ paginate_path: /blog/:num/ #!
 
 author:
   name:  Antonio Muñiz  
-  url: https://links.antoniomuniz.com/
+  url: https://blog.antoniomuniz.com/
   picture:  /assets/img/me.jpg
   about: | 
     Hola, soy Antonio y me dedico a actualizar ficheros con extensión .yml o .yaml
