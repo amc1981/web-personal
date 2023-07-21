@@ -11,4 +11,4 @@
 
 ## En otros tiempos
 
-- Colaboración con [DSLab](https://dslab.es/author/krus/)
+- Colaboración con [DSLab](https://dslab.es/author/krus/){:target="_blank"}
