@@ -6,7 +6,6 @@ description: Conceptos fundamentales para comprender las comunicaciones dentro d
 image: kubernetes-for-beginners
 category: devops
 tags:
-- devops
 - apuntes
 - kubernetes
 curso: kubernetes-for-beginners
