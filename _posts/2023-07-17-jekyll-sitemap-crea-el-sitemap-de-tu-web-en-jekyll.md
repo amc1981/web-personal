@@ -3,7 +3,7 @@ layout: post
 title: 'jekyll-sitemap: Crea el sitemap de tu web en Jekyll'
 date: 2023-07-17 20:19 +0200
 description:
-image:
+image: /assets/img/blog/sitemap-xml.png
 category: blogging
 tags:
 - jekyll
