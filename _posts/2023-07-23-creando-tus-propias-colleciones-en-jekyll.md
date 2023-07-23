@@ -11,7 +11,7 @@ tags:
 author: Antonio
 ---
 - Table of content
-{:toc}
+{:toc .large-only}
 
 - [1. Introducción](#1-introducción)
 - [2. Configuración](#2-configuración)
