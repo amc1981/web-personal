@@ -7,9 +7,9 @@ This repo hosts [blog.antoniomuniz.com](https://blog.antoniomuniz.com/) , which 
 
 On this site you can read about following topics:
 
-- [Blogging](https://blog.antoniomuniz.com/blog/category/blogging/)
-- [Devops](https://blog.antoniomuniz.com/blog/category/devops/)
-- [My own thoughts and reflections in many topics](https://blog.antoniomuniz.com/blog/category/reflexiones/)
+- [Blogging](http://blog.antoniomuniz.com/blog/categories/blogging)
+- [Devops](http://blog.antoniomuniz.com/blog/categories/devops)
+- [My own thoughts and reflections in many topics](http://blog.antoniomuniz.com/blog/categories/reflexiones)
 
 Add the site [to your feed](https://blog.antoniomuniz.com/blog/feed.xslt.xml) for stay up to date on new publications.
 
