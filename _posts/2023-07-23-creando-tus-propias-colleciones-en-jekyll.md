@@ -3,7 +3,7 @@ layout: post
 title: Creando tus propias colleciones en Jekyll
 date: 2023-07-22 01:43 +0200
 description: Guía detallada de como se ha creado la colección "Cursos" en esta web.
-image: /assets/img/blog/when-to-use-a-collection.png
+image: "/assets/img/blog/when-to-use-a-collection.png"
 category: blogging
 tags:
 - tutoriales
