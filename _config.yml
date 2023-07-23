@@ -114,6 +114,8 @@ jekyll_compose:
       image:
       category:
       tags:
+      curso:
+      lesson:
       author: Antonio
       published: false
       sitemap: true
