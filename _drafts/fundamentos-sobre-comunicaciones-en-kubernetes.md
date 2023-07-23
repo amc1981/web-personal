@@ -9,6 +9,7 @@ tags:
 - apuntes
 - kubernetes
 curso: kubernetes-for-beginners
+lesson: 1
 author: Antonio
 ---
 - Table of concepts
