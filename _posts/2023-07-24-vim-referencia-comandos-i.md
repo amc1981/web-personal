@@ -3,9 +3,12 @@ layout: post
 title: 'vim: referencia comandos (I)'
 date: 2023-07-24 00:58 +0200
 description: Guía rápida de comandos básicos para vi/vim
-image: /assets/img/blog/vim-neovim.jpg
+image: "/assets/img/blog/vim-neovim.jpg"
 category: devops
-tags: [tutoriales, apuntes, how-to]
+tags:
+- tutoriales
+- apuntes
+- how-to
 curso: vim-profesional
 lesson: 1
 author: Antonio
