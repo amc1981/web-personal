@@ -56,7 +56,7 @@ En nuestro caso en un mix entre coleciones y artículos. A priori cualquier publ
 
 ## 2. Configuración
 
-En el [primer post](http://blog.antoniomuniz.com/blogging/2023/07/10/Crea-tu-primer-post-en-Jekyll/#crear-categor%C3%ADas-o-tags){:target="_blank"} ya cubrimos parte de lo que vamos a mencionar en las siguientes secciones cuando hablamos de crear las colecciones de `categorías` y `etiquetas`. Nos repetiremos un poco sólo por dar contexto dentro de éste artículo y también por que hay pequeñas diferencias al ser esta colección de `cursos` una colección ad hoc, mientras que las de categorías y etiquetas están integradas en Jekyll por ser clasificaciones típicas de los blogs. 
+En el [primer post](http://antoniomuniz.com/blogging/2023/07/10/Crea-tu-primer-post-en-Jekyll/#crear-categor%C3%ADas-o-tags){:target="_blank"} ya cubrimos parte de lo que vamos a mencionar en las siguientes secciones cuando hablamos de crear las colecciones de `categorías` y `etiquetas`. Nos repetiremos un poco sólo por dar contexto dentro de éste artículo y también por que hay pequeñas diferencias al ser esta colección de `cursos` una colección ad hoc, mientras que las de categorías y etiquetas están integradas en Jekyll por ser clasificaciones típicas de los blogs. 
 
 Por tanto, primer paso. Declarar en el fichero de configuración de nuestro proyecto Jekyll que vamos a tener una nueva colección llamada `cursos`. Vamos al fichero `_config.yml` del proyecto y donde ya teníamos creadas las colecciones `featured_tags` y `featured_categories` añadimos la nueva:
 
@@ -122,10 +122,10 @@ Es importante la elección de los campos que definimos en el `Front Matter` pues
 Como definimos en la configuración los campos `permalink: /blog/:collection/:name` y `output: true` significa que Jekyll nos va a crear una página por cada elemento de la colección. Como tenemos cuatro cursos creados, tendremos las siguientes cuatro url's disponibles:
 
 ```sh
-http://blog.antoniomuniz.com/blog/cursos/certified-kubernetes-administration
-http://blog.antoniomuniz.com/blog/cursos/kubernetes-for-beginners
-http://blog.antoniomuniz.com/blog/cursos/the-complete-devops-bootcamp
-http://blog.antoniomuniz.com/blog/cursos/vim-profesional
+http://antoniomuniz.com/blog/cursos/certified-kubernetes-administration
+http://antoniomuniz.com/blog/cursos/kubernetes-for-beginners
+http://antoniomuniz.com/blog/cursos/the-complete-devops-bootcamp
+http://antoniomuniz.com/blog/cursos/vim-profesional
 ```
 
 Procedemos pues a crear un índice para estas páginas. En nuestra carpeta `/blog` del proyecto crearemos el fichero `cursos.html`. En la versión actual hemos escrito el siguiente código:

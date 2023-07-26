@@ -1,17 +1,17 @@
-# blog.antoniomuniz.com
+# antoniomuniz.com
 
-This repo hosts [blog.antoniomuniz.com](https://blog.antoniomuniz.com/) , which leverages the
+This repo hosts [antoniomuniz.com](https://antoniomuniz.com/) , which leverages the
 [Hydejack](https://hydejack.com) Jekyll theme in tandem with [Github Pages](https://pages.github.com/) to serve this static website.
 
 ## Topics
 
 On this site you can read about following topics:
 
-- [Blogging](http://blog.antoniomuniz.com/blog/categories/blogging)
-- [Devops](http://blog.antoniomuniz.com/blog/categories/devops)
-- [My own thoughts and reflections in many topics](http://blog.antoniomuniz.com/blog/categories/reflexiones)
+- [Blogging](http://antoniomuniz.com/blog/categories/blogging)
+- [Devops](http://antoniomuniz.com/blog/categories/devops)
+- [My own thoughts and reflections in many topics](http://antoniomuniz.com/blog/categories/reflexiones)
 
-Add the site [to your feed](https://blog.antoniomuniz.com/blog/feed.xslt.xml) for stay up to date on new publications.
+Add the site [to your feed](https://antoniomuniz.com/blog/feed.xslt.xml) for stay up to date on new publications.
 
 ## Contributing
 
