@@ -60,25 +60,14 @@ En el [primer post](http://antoniomuniz.com/blogging/2023/07/10/Crea-tu-primer-p
 
 Por tanto, primer paso. Declarar en el fichero de configuración de nuestro proyecto Jekyll que vamos a tener una nueva colección llamada `cursos`. Vamos al fichero `_config.yml` del proyecto y donde ya teníamos creadas las colecciones `featured_tags` y `featured_categories` añadimos la nueva:
 
-```yaml
-# file: "_config.yaml"
-
-collections:
-  featured_categories:
-    permalink:         /blog/categories/:name/
-    output:            true
-  featured_tags:
-    permalink:         /blog/tags/:name/
-    output:            true
-  cursos:
-    permalink: /blog/:collection/:name
-    output: true
-```
+{% gist c1d589fb2125f6e0b07097aff79bb092 _config.yml %}
 
 Detalle sobre cómo queda nuestro fichero de configuración
 {:.figcaption}
 
 Importante definir el campo `permalink` que será la base sobre la que se montará la url de cada página de cada curso de la colección y también el campo `output` que permite a Jekyll identificar que esta colección generará una página por cada elemento de la colección existente. 
+
+El campo `sort_by`, que vemos en la línea 11, será explicado más adelante cuando entremos en los detalles de la ["ordenación por claves del front matter"](#61-ordenación-por-claves-del-front-matter)
 
 En la [documentación oficial de Jekyll](https://jekyllrb.com/docs/collections/#setup){:target="_blank"} se dan más detalles respecto al setup.
 {:.note title="Más sobre colecciones"}
@@ -110,6 +99,9 @@ description: >
 ---
 ```
 
+Ejemplo del front matter de uno de los cursos
+{:.figcaption}
+
 Es importante la elección de los campos que definimos en el `Front Matter` puesto que luego los tendremos que referenciar para la programación que haremos en el layout llamado `blog_boy_curso.html`. Nosotros hemos elegido los siguientes campos por los siguientes motivos:
 
 - **name**: El nombre que se utilizará como título cuando referenciemos la variable `curso.name`.
@@ -130,34 +122,16 @@ http://antoniomuniz.com/blog/cursos/vim-profesional
 
 Procedemos pues a crear un índice para estas páginas. En nuestra carpeta `/blog` del proyecto crearemos el fichero `cursos.html`. En la versión actual hemos escrito el siguiente código:
 
-{% raw %}
-```html
-<!-- file: "/blog/cursos.html" -->
----
-layout: page
-title: Apuntes
-name: cursos
-slug: cursos
-description: >
-  Relación de apuntes tomados en cursos que voy haciendo, sobre conceptos clave que necesito entender mejor.
----
-<ul>
-    {% for curso in site.cursos %}
-      <li>
-        <h2><a href="/blog/cursos/{{ curso.slug }}">{{ curso.name }}</a></h2>
-        <p><q>{{ curso.description }}</q> ->  <a href="{{ curso.link }}" Target="_blank">Enlace al curso</a></p>
-        <hr>
-      </li>
-    {% endfor %}
-  </ul>
-```
-{% endraw %}
+{% gist c1d589fb2125f6e0b07097aff79bb092 cursos.html %}
+
+Detalle sobre código html para la página donde mostraremos el índice de los cursos "/blog/cursos.html"
+{:.figcaption}
 
 Empezamos a ver aquí el potencial de Jekyll + Liquid. Estamos iterando la variable de Jekyll `site.cursos` de modo que recorremos los cuatro ficheros que definiamos antes con los nombres de cada curso y creamos un título `h2` por cada uno para ello usamos las variables `curso.slug` en el link y `curso.name` en el texto del enlace.
 
 Para completar éste índice añadimos un párrafo en el que añadimos un cita -etiqueta <q> en html- con la descripción del curso, `curso.description` y por último un enlace en una nueva pestaña -`target="_blank"` dentro de la etiqueta <a>- invocando a la variable `curso.link`
 
-Por tanto hacemos uso de todos los campos del `Front Matter` de cada fichero que habíamos definido en el [punto anterior](#2-añadir-contenido).
+Por tanto hacemos uso de todos los campos del `Front Matter` de cada fichero que habíamos definido en el [punto anterior](#3-añadir-contenido).
 
 ## 5. Permalinks
 
@@ -182,17 +156,7 @@ Explicaremos ambas a continuación.
 
 Aprovechando las capacidades que nos brinda Jekyll, podemos definir un campo ad hoc para la ordenación de nuestros artículos. En nuestro caso al tratarse de tutoriales/apuntes vinculados a cursos, podemos definir que cada artículo sea una lección. De modo que en el fichero `_config.yaml` además de las entradas para permalinks y output, añadiremos ahora el campo `sort_by` cuyo valor será `lesson`. Cuando definamos el front matter de los posts que queramos añadir al curso, añadiremos el campo `lesson` y le asignaremos el número entero que corresponda al orden que queremos darle.
 
-Por tanto son necesarias dos operaciones. Añadir el nuevo campo `sort_by` bajo la colección en el fichero de configuración y en cada nuevo post añadir campo `lesson` y darle el valor que corresponda.
-
-```yaml
-# file: "_config.yaml"
-
-collections:
-  cursos:
-    permalink: /blog/:collection/:name
-    output: true
-    sort_by: lesson
-```
+Por tanto son necesarias dos operaciones. Añadir el nuevo campo `sort_by` bajo la colección en el fichero de configuración y en cada nuevo post añadir campo `lesson` y darle el valor que corresponda. Como veíamos en el gist que veíamos en el [punto 2](#2-configuración) de ésta guía.
 
 Un ejemplo del front matter de nuestro primer artículo perteneciente a un curso sería este:
 
@@ -211,16 +175,10 @@ Si comenzamos a asignar un orden pero dejamos de hacerlo, lo que pasará es que 
 
 Otra opción es dar un orden manual desde el propio fichero de configuración, pero en lugar de `sort_by` utilizaremos la palabra clave `order`. Ponemos un ejemplo copiado de la documentación oficial, porque en este proyecto no hemos elegido esta opción manual pero la referenciamos igualmente para su mayor comprensión.
 
-```yaml
-# file: "example.yaml"
-collections:
-  tutorials:
-    order:
-      - hello-world.md
-      - introduction.md
-      - basic-concepts.md
-      - advanced-concepts.md
-```
+{% gist c1d589fb2125f6e0b07097aff79bb092 example.yml %}
+
+Ejemplo de la configuración que tendríamos que hacer en el fichero `_config.yml`si queremos ordenación manual.
+{:.figcaption}
 
 ## 7. Atributos Liquid
 
@@ -246,45 +204,10 @@ Pongamos en práctica todo lo aprendido hasta ahora.
 
 Añadimos a continuación el código de la primera versión funcional del archivo `/layouts/blog_by_curso.html`
 
-{% raw %}
-```html
-<!-- file: "/layouts/blog_by_curso.html" -->
----
-layout: default
----
-{% assign num_filtered_posts = site.posts | where: 'curso', page.slug | size  %}
-{% assign filtered_posts = site.posts | where: 'curso', page.slug   %}
+{% gist c1d589fb2125f6e0b07097aff79bb092 blog_by_curso.html %}
 
-{% for cursos in site.cursos %}
-  {% if cursos.slug == page.slug %}
-
-    {% assign curso_link = cursos.link %}
-  {% endif %}
-{% endfor %}
- 
-<p><a href="{{ curso_link }}" target="_blank">Enlace al curso</a></p>
-<hr>
-
-{% if num_filtered_posts > 0 %} 
-
-  {% for post in filtered_posts %} 
-    <ul>
-      <li>
-       <h3><a href="{{ post.url }}">{{ post.title }}</a>  </h3>
-       <p>Etiquetas: / {% for tag in post.tags %}<a href="/blog/tags/{{ tag }}"> {{ tag }} </a>/{% endfor %} - {{ post.date | date_to_string}}</p>
-       <hr>
-       </li>
-     </ul>
-  {% endfor %}
-
-{% else %}
-
-<p>Aún no existen artículos para este curso</p>
-
-{% endif %}
-
-```
-{% endraw %}
+Código creado para mostrar los posts relacionados con un curso concreto en la ruta `/layouts/blog_by_curso.html`
+{:.figcaption}
 
 ### 8.2. La explicación
 
