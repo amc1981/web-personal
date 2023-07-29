@@ -131,3 +131,6 @@ feed:
 # jekyll-gist configuration
 gist:
   noscript: false
+
+# Google analytics
+google_analytics: G-RZCNDXXKLN
