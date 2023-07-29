@@ -246,3 +246,5 @@ Resultado final para las páginas de cada curso
 [Documentación oficial sobre colecciónes en Jekyll](https://jekyllrb.com/docs/collections/){:target="_blank"}
 
 [Documentación oficial Liquid](https://shopify.github.io/liquid/){:target="_blank"}
+
+Enlace a los [Github Gists](https://gist.github.com/amc1981/68b9722b4b084148e92d6f07fa6136ab){:target="_blank"} utilizados en este post
