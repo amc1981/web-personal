@@ -20,6 +20,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-tagging-related_posts
   - jekyll-readme-index
+  - jekyll-gist
 
 #plugins:
 #- jekyll-remote-theme # add this line to the plugins list if you already have one
@@ -127,3 +128,6 @@ feed:
   path: /blog/feed.xslt.xml
   excerpt_only: false
 
+# jekyll-gist configuration
+gist:
+  noscript: false
