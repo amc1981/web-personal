@@ -10,3 +10,4 @@ gem 'jekyll-sitemap'
 gem 'jekyll-seo-tag'
 gem "jekyll-tagging-related_posts"
 gem "jekyll-readme-index"
+gem 'jekyll-gist'

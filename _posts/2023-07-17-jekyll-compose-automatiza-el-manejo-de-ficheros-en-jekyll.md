@@ -37,9 +37,10 @@ Tenemos que hacer dos cosas: abrir automáticamente los nuevos borradores o post
 
 ### Abrir automáticamente los ficheros
 
-Tenemos  que añadir estas líneas en nuestro `_config.yaml`
+Tenemos  que añadir estas líneas en nuestro fichero de configuración de Jekyll.
 
 ~~~yaml
+# file: "_config.yml"
   jekyll_compose:
     auto_open: true
 ~~~
@@ -55,6 +56,7 @@ $ export JEKYLL_EDITOR=vscode
 Añadiremos los siguiente en el `_config.yaml`
 
 ~~~yaml
+# file: "_config.yaml"
 jekyll_compose:
   default_front_matter:
     drafts:
