@@ -20,13 +20,15 @@ jekyll-feed es un plugin que automatiza la generación de un fichero de feed en 
 
 Como en ejemplos anteriores de otros plugins, añadimos la gema a nuestro fichero `Gemfile` y ejecutamos el comando `bundle`
 
-~~~Gemfile
+~~~ruby
+# file: "Gemfile"
 gem 'jekyll-feed'
 ~~~
 
 Posteriormente añadimos a nuestro fichero de configuración `_config.yaml` la correspondiente línea refiriendose al plugin:
 
 ~~~yaml
+# file: "_config.yml"
 plugins:
   - jekyll-feed
 ~~~
@@ -38,6 +40,7 @@ Simplemente con estos dos pasos ya se genera automáticamente un fichero `/feed.
 Adjuntamos a continuación las líneas referentes a la configuración del plugin en el fichero `_config.yaml`.
 
 ~~~yaml
+# file: "_config.yml"
 # Jekyll-feed configuration
 
 feed:

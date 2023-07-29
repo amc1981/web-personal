@@ -18,9 +18,10 @@ jekyll-sitemap es un plugin que genera un fichero `sitemap.xml` a partir de los 
 
 ## Instalación
 
-1. Como de costumbre, añadimos la línea referenciando a la gema correspondiente en nuestro `Gemfile` y posteriormente ejecutamos el comando `bundle`
+Como de costumbre, añadimos la línea referenciando a la gema correspondiente en nuestro `Gemfile` y posteriormente ejecutamos el comando `bundle`
 
-~~~Gemfile
+~~~ruby
+# file: "Gemfile"
 gem 'jekyll-sitemap'
 ~~~
 
@@ -36,7 +37,13 @@ $ bundle info jekyll-sitemap
                 github-pages (228) depends on jekyll-sitemap (= 1.4.0)
 ~~~
 
-2. Añadimos el plugin en la colección de plugins de nuestro fichero de configuración `_config.yaml`
+Por último el plugin en la colección de plugins de nuestro fichero de configuración `_config.yaml`
+
+```yaml
+# file: "_config.yml"
+plugins:
+  - jekyll-sitemap
+```
 
 ## Exclusiones
 
@@ -45,6 +52,7 @@ Podemos decidir qué partes de nuestro sitio web son excluidas del fichero `site
 Para que lo veamos con un ejemplo lo haremos en este blog con la sección `featured_tags`, dejando así excluidas todas las etiquetas de nuestro blog:
 
 ~~~yaml
+# file: "_config.yaml"
 defaults:
   -
     scope:
