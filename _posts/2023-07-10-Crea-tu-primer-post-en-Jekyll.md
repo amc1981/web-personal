@@ -177,4 +177,6 @@ Añadir [categorías o tags](https://hydecorp.github.io/hydejack-starter-kit/doc
 
 [Blog](https://tseknet.com/blog/){:target="_blank"} en el que me he "inspirado"
 
-[Guía completa](https://dsigno.github.io/Empezando-Jekyll/Usar-tags-y-categorias-en-Jekyll-I/) uso de categorías y etiquetas en Jekyll en castellano
+[Guía completa](https://dsigno.github.io/Empezando-Jekyll/Usar-tags-y-categorias-en-Jekyll-I/){:target="_blank"} uso de categorías y etiquetas en Jekyll en castellano
+
+Enlace a los [Github Gists](https://gist.github.com/amc1981/c1d589fb2125f6e0b07097aff79bb092){:target="_blank"} utilizados en este post
