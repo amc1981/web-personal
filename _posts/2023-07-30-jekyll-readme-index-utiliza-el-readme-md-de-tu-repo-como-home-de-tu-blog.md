@@ -2,10 +2,13 @@
 layout: post
 title: 'jekyll-readme-index: utiliza el README.md de tu repo como home de tu blog'
 date: 2023-07-30 01:51 +0200
-description: Este plugin te permite utilizar la información que muestres en el fichero README.md del repo como página de inicio de tu blog. 
-image: /assets/img/blog/index-page-detail.png
+description: Este plugin te permite utilizar la información que muestres en el fichero
+  README.md del repo como página de inicio de tu blog.
+image: "/assets/img/blog/index-page-detail.png"
 category: blogging
-tags: [how-to, jekyll-plugins]
+tags:
+- how-to
+- jekyll-plugins
 author: Antonio
 ---
 - Tabla de contenidos
