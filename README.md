@@ -32,10 +32,10 @@
 ### Últimos posts publicados
 
 <!-- BLOG-POST-LIST:START -->
+- [jekyll-readme-index: utiliza el README.md de tu repo como home de tu blog](https://antoniomuniz.com/blogging/2023/07/29/jekyll-readme-index-utiliza-el-readme-md-de-tu-repo-como-home-de-tu-blog/)
 - [vim: referencia comandos &lpar;I&rpar;](https://antoniomuniz.com/devops/2023/07/23/vim-referencia-comandos-i/)
 - [Creando tus propias colleciones en Jekyll](https://antoniomuniz.com/blogging/2023/07/21/creando-tus-propias-colleciones-en-jekyll/)
 - [jekyll-sitemap: Crea el sitemap de tu web en Jekyll](https://antoniomuniz.com/blogging/2023/07/17/jekyll-sitemap-crea-el-sitemap-de-tu-web-en-jekyll/)
-- [jekyll-feed: plugin para crear un fichero de feeds](https://antoniomuniz.com/blogging/2023/07/17/jekyll-feed-plugin-para-crear-un-fichero-de-feeds/)
 <!-- BLOG-POST-LIST:END -->
 
 ---
