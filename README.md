@@ -14,12 +14,14 @@
 - 🔭 Actualmente estoy trabajando en este [blog](http://antoniomuniz.com/){:target="_blank"}
 - 🌱 Actualmente cursando:
   - 💻 [Certified Kubernetes Administrator (CKA)](https://antoniomuniz.com/blog/cursos/certified-kubernetes-administration)
-  - ⌨️ [Vim Profesional](https://antoniomuniz.com/blog/cursos/vim-profesional)
   - 🖱️ [The ultimate Devops Bootcamp - 2023](https://antoniomuniz.com/blog/cursos/the-complete-devops-bootcamp)
 - 👯 Abierto a colaborar en proyectos Open Source.
 - 🤔 Si tienes recursos(cursos, libros, tutoriales, webs, newsletters...) sobre *Technical Writing*, te agradezco que me los hagas llegar.
 - 💬 Pregunta lo que quieras 
 - 📫 Enviame un e-mail: <a href="mailto:amc1981@gmail.com" target="_blank"><img src="https://img.shields.io/badge/%F0%9F%93%AC-Email-darkgreen" alt="e-mail"></a>
+
+
+{% include 04-lists.md %}
 
 ---
 
