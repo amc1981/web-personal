@@ -44,6 +44,9 @@ author: Antonio
   - [3.3. Navegar entre archivos](#33-navegar-entre-archivos)
   - [3.4. Indentación](#34-indentación)
   - [3.5. Vim en VSCode](#35-vim-en-vscode)
+  - [3.6. Sustituciones o abreviaciones](#36-sustituciones-o-abreviaciones)
+- [4. Recursos](#4-recursos)
+
 
 ## 1. Configuraciones 
 
@@ -316,7 +319,7 @@ Sólo con instalar la extensión `vscodevim`  localizará el los mapeos de `.vim
 
 Enlace a certificado del curso: [Certificado](https://www.udemy.com/certificate/UC-7a5fe4d5-7e9b-4e73-895c-bf8fb66b15f0/)
 
-### Sustituciones o abreviaciones
+### 3.6. Sustituciones o abreviaciones
 
 Al igual que con los mapeos con `nmap`, podemos configurar combinaciones de teclas en modo Insertar que serán sustituidas por cadenas más grandes con `iab`. Por ejemplo, cuando queremos que un enlace en `Markdown` se abra en una nueva pestaña debemos añadir a continuación lo siguiente: `{:target="_blank"}`. Una manera sencilla de ahorrarnos el tener que recordar esta sentencia sería mediante la sustitución. 
 
@@ -328,7 +331,9 @@ En nuestro `.vimrc` podemos añadir la siguiente línea:
 iab _tb {:target="_blank"}
 ```
 
-## Recursos
+## 4. Recursos
 
 [Más sobre sustituciones y abreviaciones](https://www.sromero.org/wiki/linux/aplicaciones/manual_vim#sustituciones_o_abreviaciones){:target="_blank"}
+
 [Enlace al curso](https://www.udemy.com/course/vim-profesional/){:target="_blank"}
+
