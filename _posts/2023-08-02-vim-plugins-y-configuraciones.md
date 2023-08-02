@@ -4,7 +4,7 @@ title: 'vim: plugins y configuraciones'
 date: 2023-08-01 17:26 +0200
 description: Segundo y último post de la serie relacionada con el curso "Vim profesional".
   Aquí se recogen los pasos necesarios para configurar vim como IDE de desarrollo.
-image: "/assets/img/blog/my-vimrc-file.png"
+image: "/assets/img/blog/vimrc-on-snappify.png"
 category: devops
 tags:
 - tutoriales
