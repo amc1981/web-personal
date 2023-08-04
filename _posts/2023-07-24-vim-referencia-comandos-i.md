@@ -10,7 +10,6 @@ tags:
 - apuntes
 - how-to
 curso: vim-profesional
-lesson: 1
 author: Antonio
 ---
 - Tabla de contenidos

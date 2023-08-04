@@ -11,7 +11,6 @@ tags:
 - apuntes
 - how-to
 curso: vim-profesional
-lesson: 2
 author: Antonio
 ---
 0. Tabla de contenidos
