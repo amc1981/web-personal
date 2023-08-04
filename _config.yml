@@ -66,7 +66,6 @@ collections:
   cursos:
     permalink: /blog/:collection/:name
     output: true
-    sort_by: lesson
 
 defaults:
   -
