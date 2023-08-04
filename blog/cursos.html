@@ -10,11 +10,14 @@ description: >
     {% for curso in site.cursos %}
       <li>
         <h2><a href="/blog/cursos/{{ curso.slug }}">{{ curso.name }}</a></h2>
-        <p><q>{{ curso.description }}</q> ->  <a href="{{ curso.link }}" Target="_blank">Enlace al curso</a></p>
+        {% if curso.cert_link %}
+        {% assign curso_cert_link = curso.cert_link %}
+          <p><q>{{ curso.description }}</q> ->  <a href="{{ curso.link }}" Target="_blank">Enlace al curso</a> - <a href="{{ curso_cert_link }}" target="_blank">Certificado de finalización</a></p>
+        {% else %}
+          <p><q>{{ curso.description }}</q> ->  <a href="{{ curso.link }}" Target="_blank">Enlace al curso</a></p>
+        {% endif %}
+        
         <hr>
       </li>
     {% endfor %}
   </ul>
-
-
-

@@ -4,26 +4,29 @@ layout: default
 {% assign num_filtered_posts = site.posts | where: 'curso', page.slug | size  %}
 {% assign filtered_posts = site.posts | where: 'curso', page.slug   %}
 
-{% for cursos in site.cursos %}
-  {% if cursos.slug == page.slug %}
+{% for curso in site.cursos %}
+  {% if curso.slug == page.slug %}
+    {% assign curso_link = curso.link %}
+    {% if curso.cert_link %}
+      <p><a href="{{ curso_link }}" target="_blank">Enlace al curso</a> - <a href="{{ curso.cert_link }}" target="_blank"><strong>Certificado de finalización</strong></a></p>
+    {% else %}
+      <p><a href="{{ curso_link }}" target="_blank">Enlace al curso</a></p>
+    {% endif %}
 
-    {% assign curso_link = cursos.link %}
   {% endif %}
 {% endfor %}
  
-<p><a href="{{ curso_link }}" target="_blank">Enlace al curso</a></p>
 <hr>
 
 {% if num_filtered_posts > 0 %} 
-
   {% for post in filtered_posts %} 
     <ul>
       <li>
-       <h3>{{ post.lesson }} - <a href="{{ post.url }}">{{ post.title }}</a>  </h3>
-       <p>Etiquetas: / {% for tag in post.tags %}<a href="/blog/tags/{{ tag }}"> {{ tag }} </a>/{% endfor %} - {{ post.date | date_to_string}}</p>
-       <hr>
-       </li>
-     </ul>
+        <h3><a href="{{ post.url }}">{{ post.title }}</a>  </h3>
+        <p>Etiquetas: / {% for tag in post.tags %}<a href="/blog/tags/{{ tag }}"> {{ tag }} </a>/{% endfor %} - {{ post.date | date_to_string}}</p>
+        <hr>
+      </li>
+    </ul>
   {% endfor %}
 
 {% else %}
