@@ -6,21 +6,8 @@ description: Guía para crear tu primera publicación en tu blog de Jekyll. Paso
 category: blogging
 tags: [tutoriales, jekyll]
 ---
-1. Tabla de contenidos
-{:toc large-only}
-
-- [1. Crear carpeta "\_posts"](#1-crear-carpeta-_posts)
-  - [1.1. Crear nuestro primer artículo](#11-crear-nuestro-primer-artículo)
-- [2. Listado de posts](#2-listado-de-posts)
-- [3. Crear categorías o tags.](#3-crear-categorías-o-tags)
-  - [3.1. Configuración](#31-configuración)
-  - [3.2. Añadir elementos a cada colección](#32-añadir-elementos-a-cada-colección)
-  - [3.3. Página de etiquetas](#33-página-de-etiquetas)
-  - [3.4. Posts por etiqueta o categoría](#34-posts-por-etiqueta-o-categoría)
-- [4. Recursos](#4-recursos)
-
-
-
+* Tabla de contenidos
+{:toc}
 
 En este artículo recogemos todos los pasos necesarios para crear nuestra primera publicación en un blog que está en Jekyll.
 {:.lead}

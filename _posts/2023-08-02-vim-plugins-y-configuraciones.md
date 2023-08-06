@@ -13,12 +13,12 @@ tags:
 curso: vim-profesional
 author: Antonio
 ---
-0. Tabla de contenidos
+* Tabla de contenidos
 {:toc}
 
 Continuamos con el curso de [vim profesional](/blog/cursos/vim-profesional){:target="_blank"} que iniciamos con esta [guía rápida](https://antoniomuniz.com/devops/2023/07/23/vim-referencia-comandos-i/){:target="_blank"} de comandos de vim y acabará con este post sobre plugins y configuraciones que incluiremos en nuestro fichero `.vimrc`
 
-## Configuraciones:
+## Configuraciones
 
 Para el manejo de las configuraciones nativas, plugins y otras funcionalidades como mapeos y abreviaturas en vim, tenemos que escribirlas en el fichero `.vimrc`, que crearemos en el directorio `$HOME` de nuestro usuario.
 
@@ -225,7 +225,7 @@ Añariemos la línea `Plug 'tpope/vim-commentary'`. Guardamos, salimos y volvemo
 
 [Link al repo en GitHub](https://github.com/tpope/vim-commentary){:target="_blank"} 
 
-#### Uso
+#### Uso de Commentary
 
 - Comentar/descomentar _una línea_: Nos situamos en la línea a comentar y en `modo Normal` pulsamos -> `gcc`
 - Comentar/descomentar _varias líneas_: Seleccionamos el bloque de líneas a comentar con el `modo Visual` de Vim y pulsamos -> `gc`
@@ -342,7 +342,7 @@ iab _tb {:target="_blank"}
 
 Sólo con instalar la [extensión vscodevim](https://marketplace.visualstudio.com/items?itemName=vscodevim.vim){:target="_blank"}  aplicará el los mapeos de `.vimrc` que no se utilicen en VSCode de manera nativa, como por ejemplo "`<Control> + c`" para copiar, o "`<Control> + p`" para pegar texto.
 
-## Resultado final.
+## Resultado final
 
 Tras haber aplicado todos estos cambios en nuestra configuración de vim, nos ha quedado el siguiente fichero.
 
@@ -351,7 +351,7 @@ Tras haber aplicado todos estos cambios en nuestra configuración de vim, nos ha
 Detalle de nuestro `.vimrc` compartido en Gist.
 {:.figcaption}
 
-## 4. Recursos
+## Recursos
 
 [Enlace al curso](https://www.udemy.com/course/vim-profesional/){:target="_blank"}
 
@@ -360,7 +360,7 @@ Detalle de nuestro `.vimrc` compartido en Gist.
 
 [Lista de temas para vim](https://github.com/rafi/awesome-vim-colorschemes){:target="_blank"} 
 
-**Todos los ennlaces a los Plugins**
+**Todos los enlaces a los Plugins**
 
 - Gestor de plugins: [vim-plug](https://github.com/junegunn/vim-plug#unix){:target="_blank"} 
 - Tabline: [vim-airline](https://github.com/vim-airline/vim-airline){:target="_blank"} 

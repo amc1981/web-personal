@@ -10,27 +10,8 @@ tags:
 - jekyll
 author: Antonio
 ---
-- Table of content
-{:toc .large-only}
-
-- [1. Introducción](#1-introducción)
-- [2. Configuración](#2-configuración)
-- [3. Añadir contenido](#3-añadir-contenido)
-- [4. Salida](#4-salida)
-- [5. Permalinks](#5-permalinks)
-- [6. Ordenación de documentos ad hoc](#6-ordenación-de-documentos-ad-hoc)
-  - [6.1. Ordenación por claves del Front Matter](#61-ordenación-por-claves-del-front-matter)
-  - [6.2. Ordenación manual](#62-ordenación-manual)
-- [7. Atributos Liquid](#7-atributos-liquid)
-  - [7.1. Colecciones](#71-colecciones)
-  - [7.2. Documentos](#72-documentos)
-- [8. blog\_by\_curso.html](#8-blog_by_cursohtml)
-  - [8.1. El código](#81-el-código)
-  - [8.2. La explicación](#82-la-explicación)
-- [9. Recursos](#9-recursos)
-
-
-
+* Tabla de contenidos
+{:toc}
 
 ## 1. Introducción
 
