@@ -12,46 +12,8 @@ tags:
 curso: vim-profesional
 author: Antonio
 ---
-- Tabla de contenidos
-{:toc .large-only}
-
-- [1. Fundamentos de vim](#1-fundamentos-de-vim)
-  - [1.1. Salir sin grabar](#11-salir-sin-grabar)
-  - [1.2. Grabar y cerrar en un sólo comando](#12-grabar-y-cerrar-en-un-sólo-comando)
-  - [1.3. Grabar archivo sin nombrar](#13-grabar-archivo-sin-nombrar)
-  - [1.4. Modos](#14-modos)
-    - [1.4.1. Modo Insertar](#141-modo-insertar)
-    - [1.4.2. Modo Normal](#142-modo-normal)
-    - [1.4.3. Modo Visual](#143-modo-visual)
-    - [1.4.4. Modo Comando](#144-modo-comando)
-    - [1.4.5. Modo reemplazo](#145-modo-reemplazo)
-  - [1.5. Navegar en los archivos](#15-navegar-en-los-archivos)
-    - [1.5.1. Básicos](#151-básicos)
-    - [1.5.2. Avanzados](#152-avanzados)
-- [2. Modo inserción](#2-modo-inserción)
-  - [2.1. Modo inserción](#21-modo-inserción)
-  - [2.2. Navegar entre palabras](#22-navegar-entre-palabras)
-  - [2.3. Inserar en nuevar líneas](#23-inserar-en-nuevar-líneas)
-- [3. Manipulaciones](#3-manipulaciones)
-  - [3.1. Eliminar líneas](#31-eliminar-líneas)
-  - [3.2. Remplazo](#32-remplazo)
-  - [3.3. Sustitución](#33-sustitución)
-  - [3.4. Supimir caracteres](#34-supimir-caracteres)
-  - [3.5. Undo y Redo](#35-undo-y-redo)
-- [4. Manipulaciones avanzadas](#4-manipulaciones-avanzadas)
-  - [4.1. Saltar al principio y final de una línea](#41-saltar-al-principio-y-final-de-una-línea)
-  - [4.2. Delete Avanzado](#42-delete-avanzado)
-  - [4.3. Remplazo Avanzado](#43-remplazo-avanzado)
-  - [4.4. Copiar y pegar](#44-copiar-y-pegar)
-- [5. Comandos y búsquedas](#5-comandos-y-búsquedas)
-  - [5.1. Ejecutar comandos](#51-ejecutar-comandos)
-  - [5.2. Buscar](#52-buscar)
-  - [5.3. Búsqueda avanzada](#53-búsqueda-avanzada)
-- [6. Más atajos](#6-más-atajos)
-  - [6.1. Replicar cambios](#61-replicar-cambios)
-  - [6.2. Principio y fin del archivo](#62-principio-y-fin-del-archivo)
-  - [6.3. Agregar números a los atajos](#63-agregar-números-a-los-atajos)
-
+* Tabla de contenidos
+{:toc}
 
 ##  1. Fundamentos de vim
 ---

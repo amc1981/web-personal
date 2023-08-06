@@ -10,7 +10,7 @@ tags:
 - how-to
 - jekyll-plugins
 ---
-1. Table of contents
+* Tabla de contenidos
 {:toc}
 
 jekyll-compose es un plugin que nos facilita labor de creación de borradores, publicación de los mismos y creación de páginas en nuestro proyecto de Jekyll. Otra utilidad es el renombrado de los ficheros y a su vez del título de nuestras entradas en el blog. 

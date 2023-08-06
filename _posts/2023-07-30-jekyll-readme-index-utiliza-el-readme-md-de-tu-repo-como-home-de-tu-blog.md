@@ -11,13 +11,8 @@ tags:
 - jekyll-plugins
 author: Antonio
 ---
-- Tabla de contenidos
-{:toc large-only}
-
-- [1. Instalación y configuración](#1-instalación-y-configuración)
-- [2. Confección del fichero README.md](#2-confección-del-fichero-readmemd)
-- [3. Recursos](#3-recursos)
-
+* Tabla de contenidos
+{:toc}
 
 Citando textualmente la documentación del plugin [jekyll-readme-index](https://github.com/benbalter/jekyll-readme-index#jekyll-readme-index){:target="_blank"}:
 
