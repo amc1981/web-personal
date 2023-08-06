@@ -2,7 +2,7 @@
 layout: default
 ---
 {% assign num_filtered_posts = site.posts | where: 'curso', page.slug | size  %}
-{% assign filtered_posts = site.posts | where: 'curso', page.slug   %}
+{% assign filtered_posts = site.posts | where: 'curso', page.slug | reverse  %}
 
 {% for curso in site.cursos %}
   {% if curso.slug == page.slug %}
