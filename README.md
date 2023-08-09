@@ -34,10 +34,10 @@
 ### Últimos posts publicados
 
 <!-- BLOG-POST-LIST:START -->
+- [Servicios en Linux](https://antoniomuniz.com/devops/2023/08/07/servicios-en-linux/)
 - [vim: plugins y configuraciones](https://antoniomuniz.com/devops/2023/08/01/vim-plugins-y-configuraciones/)
 - [jekyll-readme-index: utiliza el README.md de tu repo como home de tu blog](https://antoniomuniz.com/blogging/2023/07/29/jekyll-readme-index-utiliza-el-readme-md-de-tu-repo-como-home-de-tu-blog/)
 - [vim: referencia comandos &lpar;I&rpar;](https://antoniomuniz.com/devops/2023/07/23/vim-referencia-comandos-i/)
-- [Creando tus propias colleciones en Jekyll](https://antoniomuniz.com/blogging/2023/07/21/creando-tus-propias-colleciones-en-jekyll/)
 <!-- BLOG-POST-LIST:END -->
 
 ---
