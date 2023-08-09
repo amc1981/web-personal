@@ -2,12 +2,13 @@
 layout: post
 title: Servicios en Linux
 date: 2023-08-08 00:51 +0200
-description:
+description: Guía rápida donde se explican los conceptos básicos sobre los servicios en Linux.
 image: "/assets/img/blog/linux-services-detail.png"
 category: devops
 tags:
 - apuntes
 - linux
+- how-to
 curso: the-complete-devops-bootcamp
 author: Antonio
 ---
