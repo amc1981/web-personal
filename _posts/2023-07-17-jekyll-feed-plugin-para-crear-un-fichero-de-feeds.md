@@ -11,8 +11,8 @@ tags:
 - how-to
 author: Antonio
 ---
-1. Tabla de contenidos
-{:toc large-only}
+* Tabla de contenidos
+{:toc}
 
 jekyll-feed es un plugin que automatiza la generación de un fichero de feed en nuestro proyecto de Jekyll.
 

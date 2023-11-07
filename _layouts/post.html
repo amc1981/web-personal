@@ -17,7 +17,7 @@ layout: default
 	{% endif %}
 {% endfor %}
 
-
+{% assign tag_count = page.tags | size  %}
 
 
 <p>Fecha: {{ page.date | date_to_string }} - Autor: <a href="/about">{{ page.author }}</a></p>
@@ -26,10 +26,11 @@ layout: default
 <p class="post-cat">
   {% if category_link %}Post en Categoría: {{ category_link }}{% endif %}
 </p>
-<p>Etiquetas: / {% for tag in page.tags %}<a href="/blog/tags/{{ tag }}"> {{ tag }} </a>/{% endfor %}</p>
+{% if tag_count > 0 %}
+  <p>Etiquetas: / {% for tag in page.tags %}<a href="/blog/tags/{{ tag }}"> {{ tag }} </a>/{% endfor %}</p>
 
+{% endif %}
 <hr>
-
 
 {{ content }}
 
