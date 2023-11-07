@@ -6,8 +6,8 @@ description: Crónica, pasión y muerte de mi experiencia en la \#trg23 (Foto co
 image: "/assets/img/blog/comunidad_cps_trg.jpg"
 category: reflexiones
 tags:
-- Eventos
-- Comunidad
+- eventos
+- comunidad
 author: Antonio
 date: 2023-11-08 00:25 +0100
 ---
