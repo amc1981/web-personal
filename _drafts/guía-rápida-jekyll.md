@@ -49,3 +49,5 @@ Configuration file: C:/Users/Antonio/PROYECTOS/Web-Personal/web-personal/_config
 New draft created at _drafts/guía-rápida-jekyll.md 
 ```
 
+## Publicar un post desde un borrador
+
