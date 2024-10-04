@@ -34,10 +34,10 @@
 ### Últimos posts publicados
 
 <!-- BLOG-POST-LIST:START -->
+- [Mi viaje por las tierras del CPS](https://antoniomuniz.com/reflexiones/2024/10/04/mi-viaje-por-las-tierras-del-cps/)
 - [Por qué deberías ir a la #trg24](https://antoniomuniz.com/reflexiones/2023/11/07/por-qu%C3%A9-deber%C3%ADas-ir-a-la-trg24/)
 - [Servicios en Linux](https://antoniomuniz.com/devops/2023/08/07/servicios-en-linux/)
 - [vim: plugins y configuraciones](https://antoniomuniz.com/devops/2023/08/01/vim-plugins-y-configuraciones/)
-- [jekyll-readme-index: utiliza el README.md de tu repo como home de tu blog](https://antoniomuniz.com/blogging/2023/07/29/jekyll-readme-index-utiliza-el-readme-md-de-tu-repo-como-home-de-tu-blog/)
 <!-- BLOG-POST-LIST:END -->
 
 ---
