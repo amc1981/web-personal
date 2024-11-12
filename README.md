@@ -13,8 +13,8 @@
 
 - 🔭 Actualmente estoy trabajando en este [blog](http://antoniomuniz.com/){:target="_blank"}
 - 🌱 Actualmente cursando:
-  - 💻 [Certified Kubernetes Administrator (CKA)](https://antoniomuniz.com/blog/cursos/certified-kubernetes-administration)
-  - 🖱️ [The ultimate Devops Bootcamp - 2023](https://antoniomuniz.com/blog/cursos/the-complete-devops-bootcamp)
+  - [Azure fundamentals](https://learn.microsoft.com/en-us/users/antoniomuizcasado-7173/credentials/certification/azure-fundamentals?tab=credentials-tab)
+  - AWS Cloud Practicioner
 - 👯 Abierto a colaborar en proyectos Open Source.
 - 🤔 Si tienes recursos(cursos, libros, tutoriales, webs, newsletters...) sobre *Technical Writing*, te agradezco que me los hagas llegar.
 - 💬 Pregunta lo que quieras 
